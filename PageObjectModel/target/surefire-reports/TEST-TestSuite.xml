@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="14.604" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\dsood\Desktop\day 2\PageObjectModel"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\dsood\Desktop\day 2\PageObjectModel"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dsood\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\dsood\Selenium5March\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3966434216540729976.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Skype\Phone\;C:\Users\dsood\AppData\Local\Android\android-sdk\tools;C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools;C:\Ruby22\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Ruby22\bin;C:\Users\dsood\AppData\Roaming\npm;C:\Users\dsood\AppData\Local\Microsoft\WindowsApps;C:\Users\dsood\AppData\Local\atom\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\dsood\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\dsood"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="dsood"/>
+    <property name="java.class.path" value="/C:/Users/dsood/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\dsood\Desktop\day 2\PageObjectModel\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="validateButtons" classname="testcases.care.CareLoginTest" time="10.497">
+    <failure message="expected [3] but found [4]" type="java.lang.AssertionError">java.lang.AssertionError: expected [3] but found [4]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at testcases.care.CareLoginTest.validateButtons(CareLoginTest.java:31)
+</failure>
+    <system-out><![CDATA[Starting
+&amp#27;[36minfo&amp#27;[39m: Welcome to Appium v1.4.16 (REV ae6877eff263066b26328d457bd285c0cc62430d)
+&amp#27;[36minfo&amp#27;[39m: Appium REST http interface listener started on 0.0.0.0:4723
+&amp#27;[36minfo&amp#27;[39m: [debug] Non-default server args: {"log":"C:\\Users\\dsood\\Desktop\\day 2\\PageObjectModel\\src\\test\\resources\\logs\\Appium.log"}
+&amp#27;[36minfo&amp#27;[39m: Console LogLevel: debug
+&amp#27;[36minfo&amp#27;[39m: File LogLevel: debug
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 10.321 ms - 105&amp#27;[39m &amp#27;[90m{"status":0,"value":{"build":{"version":"1.4.16","revision":"ae6877eff263066b26328d457bd285c0cc62430d"}}}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"appPackage":"com.care.android.careview","appActivity":"com.care.android.careview.ui.startup.SplashActivity","platformVersion":"6.0.1","browserName":"null","platformName":"Android","deviceName":"android"}}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: Client User-Agent string: Apache-HttpClient/4.5.2 (Java/1.8.0_131)
+&amp#27;[36minfo&amp#27;[39m: [debug] Didn't get app but did get Android package, will attempt to launch it on the device
+&amp#27;[36minfo&amp#27;[39m: [debug] Creating new appium session 52281b93-7175-4873-92af-be2c7db73641
+&amp#27;[36minfo&amp#27;[39m: Starting android appium
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting Java version
+&amp#27;[36minfo&amp#27;[39m: Java version is: 1.8.0_131
+&amp#27;[36minfo&amp#27;[39m: [debug] Checking whether adb is present
+&amp#27;[36minfo&amp#27;[39m: [debug] Using adb from C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe
+&amp#27;[33mwarn&amp#27;[39m: No app capability, can't parse package/activity
+&amp#27;[36minfo&amp#27;[39m: [debug] Using fast reset? true
+&amp#27;[36minfo&amp#27;[39m: [debug] Preparing device for session
+&amp#27;[36minfo&amp#27;[39m: [debug] Not checking whether app is present since we are assuming it's already on the device
+&amp#27;[36minfo&amp#27;[39m: Retrieving device
+&amp#27;[36minfo&amp#27;[39m: [debug] Trying to find a connected android device
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting connected devices...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe devices
+&amp#27;[36minfo&amp#27;[39m: [debug] 1 device(s) connected
+&amp#27;[36minfo&amp#27;[39m: Found device ZX1G429MDC
+&amp#27;[36minfo&amp#27;[39m: [debug] Setting device id to ZX1G429MDC
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting for device to be ready and to respond to shell commands (timeout = 5)
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC wait-for-device
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "echo 'ready'"
+&amp#27;[36minfo&amp#27;[39m: [debug] Starting logcat capture
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting device API level
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "getprop ro.build.version.sdk"
+&amp#27;[36minfo&amp#27;[39m: [debug] Device is at API Level 23
+&amp#27;[36minfo&amp#27;[39m: Device API level is: 23
+&amp#27;[36minfo&amp#27;[39m: [debug] Extracting strings for language: default
+&amp#27;[36minfo&amp#27;[39m: [debug] Apk doesn't exist locally
+&amp#27;[36minfo&amp#27;[39m: [debug] Could not get strings, but it looks like we had an old strings file anyway, so ignoring
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "rm -rf /data/local/tmp/strings.json"
+&amp#27;[36minfo&amp#27;[39m: [debug] Not uninstalling app since server not started with --full-reset
+&amp#27;[36minfo&amp#27;[39m: [debug] Skipping install since we launched with a package instead of an app path
+&amp#27;[36minfo&amp#27;[39m: [debug] Forwarding system:4724 to device:4724
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC forward tcp:4724 tcp:4724
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing appium bootstrap to device...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC push "C:\\Program Files (x86)\\Appium\\node_modules\\appium\\build\\android_bootstrap\\AppiumBootstrap.jar" /data/local/tmp/
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing settings apk to device...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC install "C:\Program Files (x86)\Appium\node_modules\appium\build\settings_apk\settings_apk-debug.apk"
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing unlock helper app to device...
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC install "C:\Program Files (x86)\Appium\node_modules\appium\build\unlock_apk\unlock_apk-debug.apk"
+&amp#27;[36minfo&amp#27;[39m: Starting App
+&amp#27;[36minfo&amp#27;[39m: [debug] Attempting to kill all 'uiautomator' processes
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting all processes with 'uiautomator'
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "ps 'uiautomator'"
+&amp#27;[36minfo&amp#27;[39m: [debug] No matching processes found
+&amp#27;[36minfo&amp#27;[39m: [debug] Running bootstrap
+&amp#27;[36minfo&amp#27;[39m: [debug] spawning: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell uiautomator runtest AppiumBootstrap.jar -c io.appium.android.bootstrap.Bootstrap -e pkg com.care.android.careview -e disableAndroidWatchers false
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: numtests=1&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: stream=&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] io.appium.android.bootstrap.Bootstrap:&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: test=testRunServer&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS: current=1&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] &amp#27;[90m[UIAUTOMATOR STDOUT] INSTRUMENTATION_STATUS_CODE: 1&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Socket opened on port 4724
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Appium Socket Server Ready
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Loading json...
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Registered crash watchers.
+&amp#27;[36minfo&amp#27;[39m: [debug] Waking up device if it's not alive
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["wake",{}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Client connected
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"wake","params":{}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: wake
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":true}
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "dumpsys window"
+&amp#27;[36minfo&amp#27;[39m: [debug] Screen already unlocked, continuing.
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["getDataDir",{}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"getDataDir","params":{}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: getDataDir
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":"\/data\/local\/tmp"}
+&amp#27;[36minfo&amp#27;[39m: [debug] dataDir set to: /data/local/tmp
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["compressedLayoutHierarchy",{"compressLayout":false}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"compressedLayoutHierarchy","params":{"compressLayout":false}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: compressedLayoutHierarchy
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting device API level
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "getprop ro.build.version.sdk"
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":false}
+&amp#27;[36minfo&amp#27;[39m: [debug] Device is at API Level 23
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "am start -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000 -n com.care.android.careview/com.care.android.careview.ui.startup.SplashActivity"
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting for pkg "com.care.android.careview" and activity "com.care.android.careview.ui.startup.SplashActivity" to be focused
+&amp#27;[36minfo&amp#27;[39m: [debug] Getting focused package and activity
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "dumpsys window windows"
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "getprop ro.build.version.release"
+&amp#27;[36minfo&amp#27;[39m: [debug] Device is at release version 6.0.1
+&amp#27;[36minfo&amp#27;[39m: [debug] Device launched! Ready for commands
+&amp#27;[36minfo&amp#27;[39m: [debug] Setting command timeout to the default of 60 secs
+&amp#27;[36minfo&amp#27;[39m: [debug] Appium session started with sessionId 52281b93-7175-4873-92af-be2c7db73641
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[36m303&amp#27;[39m&amp#27;[90m 13105.329 ms - 74&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":{"platform":"LINUX","browserName":"null","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.care.android.careview","appActivity":"com.care.android.careview.ui.startup.SplashActivity","platformVersion":"6.0.1","browserName":"null","platformName":"Android","deviceName":"android"},"appPackage":"com.care.android.careview","appActivity":"com.care.android.careview.ui.startup.SplashActivity","platformName":"Android","deviceName":"ZX1G429MDC"},"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641 &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 4.326 ms - 690&amp#27;[39m &amp#27;[90m{"status":0,"value":{"platform":"LINUX","browserName":"null","platformVersion":"6.0.1","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"appPackage":"com.care.android.careview","appActivity":"com.care.android.careview.ui.startup.SplashActivity","platformVersion":"6.0.1","browserName":"null","platformName":"Android","deviceName":"android"},"appPackage":"com.care.android.careview","appActivity":"com.care.android.careview.ui.startup.SplashActivity","platformName":"Android","deviceName":"ZX1G429MDC"},"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+Starting the test suite
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts&amp#27;[39m &amp#27;[90m{"type":"implicit","ms":0}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Set Android implicit wait to 0ms
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 3.608 ms - 76&amp#27;[39m &amp#27;[90m{"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 1.177 ms - 84&amp#27;[39m &amp#27;[90m{"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.care.android.careview:id/linearLayout"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 0ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding com.care.android.careview:id/linearLayout using ID with the contextId:  multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding com.care.android.careview:id/linearLayout using ID with the contextId:  multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":[]}
+&amp#27;[36minfo&amp#27;[39m: [debug] Condition unmet after 1182ms. Timing out.
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":[],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 1195.769 ms - 74&amp#27;[39m &amp#27;[90m{"status":0,"value":[],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 5.656 ms - 84&amp#27;[39m &amp#27;[90m{"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.care.android.careview:id/linearLayout"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 0ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding com.care.android.careview:id/linearLayout using ID with the contextId:  multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (1)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 211.028 ms - 89&amp#27;[39m &amp#27;[90m{"status":0,"value":[{"ELEMENT":"1"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/element/1/elements&amp#27;[39m &amp#27;[90m{"id":"1","using":"class name","value":"android.widget.TextView"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 0ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"class name","selector":"android.widget.TextView","context":"1","multiple":true}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"1","multiple":true}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId: 1 multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[1] is 1, counter: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[1] is 1, counter: 1
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[1] is 1, counter: 2
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[1] is 1, counter: 3
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"}]}
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/e3 Total buttons
+lement/1/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 97.286 ms - 121&amp#27;[39m &amp#27;[90m{"status":0,"value":[{"ELEMENT":"2"},{"ELEMENT":"3"},{"ELEMENT":"4"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts&amp#27;[39m &amp#27;[90m{"type":"implicit","ms":5000}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Set Android implicit wait to 5000ms
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 4.028 ms - 76&amp#27;[39m &amp#27;[90m{"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts&amp#27;[39m &amp#27;[90m{"type":"implicit","ms":0}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Set Android implicit wait to 0ms
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 3.377 ms - 76&amp#27;[39m &amp#27;[90m{"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/context &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 2.515 ms - 84&amp#27;[39m &amp#27;[90m{"status":0,"value":"NATIVE_APP","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements&amp#27;[39m &amp#27;[90m{"using":"id","value":"com.care.android.careview:id/linearLayout"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 0ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.care.android.careview:id/linearLayout","context":"","multiple":true}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding com.care.android.careview:id/linearLayout using ID with the contextId:  multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (0)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=0, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[] is null: (1)
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements tmp selector:UiSelector[INSTANCE=1, RESOURCE_ID=com.care.android.careview:id/linearLayout]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"5"}]}
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"5"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 181.070 ms - 89&amp#27;[39m &amp#27;[90m{"status":0,"value":[{"ELEMENT":"5"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/element/5/elements&amp#27;[39m &amp#27;[90m{"id":"5","using":"class name","value":"android.widget.TextView"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Waiting up to 0ms for condition
+&amp#27;[36minfo&amp#27;[39m: [debug] Pushing command to appium work queue: ["find",{"strategy":"class name","selector":"android.widget.TextView","context":"5","multiple":true}]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"class name","selector":"android.widget.TextView","context":"5","multiple":true}}
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command of type ACTION
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Got command action: find
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Finding android.widget.TextView using CLASS_NAME with the contextId: 5 multiple: true
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Using: UiSelector[CLASS=android.widget.TextView]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView]
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[5] is 5, counter: 0
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[5] is 5, counter: 1
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[5] is 5, counter: 2
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Element[5] is 5, counter: 3
+&amp#27;[36minfo&amp#27;[39m: [debug] [BOOTSTRAP] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"}]}
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":[{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/element/5/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 433.787 ms - 121&amp#27;[39m &amp#27;[90m{"status":0,"value":[{"ELEMENT":"6"},{"ELEMENT":"7"},{"ELEMENT":"8"}],"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts&amp#27;[39m &amp#27;[90m{"type":"implicit","ms":5000}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] Set Android implicit wait to 5000ms
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- POST /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/timeouts &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 5.654 ms - 76&amp#27;[39m &amp#27;[90m{"status":0,"value":null,"sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+Screenshot Captured
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/screenshot&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC shell "/system/bin/rm /data/local/tmp/screenshot.png; /system/bin/screencap -p /data/local/tmp/screenshot.png "
+&amp#27;[36minfo&amp#27;[39m: [debug] executing cmd: C:\Users\dsood\AppData\Local\Android\android-sdk\platform-tools\adb.exe -s ZX1G429MDC pull /data/local/tmp/screenshot.png "C:\\Users\\dsood\\AppData\\Local\\Temp\\appium117418-404-11lhxf1.png"
+&amp#27;[36minfo&amp#27;[39m: [debug] Responding to client with success: {"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3VlwW9d9P/DvufdiJQhwpwhxJ0VSoiRKolZbm504sRXbSeup3Hjq+KHTsSd5SR/y0Je2j31M5/9QNdNOokkyMTWJY0tN4lqOo1qWJVmStVLcxJ0Ed4IkiB333v8DcC8BEgBBEiAA8vdJaIq428Hd8b0H57Cf/OQnMgghhBBCCCGEEEIIIYSQJOPSXQBCCCGEEEIIIYQQQgghWxMF0IQQQgghhBBCCCGEEEJSggJoQgghhBBCCCGEEEIIISlBATQhhBBCCCGEEEIIIYSQlKAAmhBCCCGEEEIIIYQQQkhKUABNCCGEEEIIIYQQQgghJCUogCaEEEIIIYQQQgghhBCSEhRAE0IIIYQQQgghhBBCCEkJCqAJIYQQQgghhBBCCCGEpAQF0IQQQgghhBBCCCGEEEJSggJoQgghhBBCCCGEEEIIISlBATQhhBBCCCGEEEIIIYSQlKAAmhBCCCGEEEIIIYQQQkhKCOkuACFbhSAIqK+vR0VFRbqLEmF0dBTd3d0IBALpLkpSNTc3w+PxoLe3N6nzraurQ25uLh48eJDU+RJCCCGEEEIIIYRsRxRAE5IkOTk5eOGFF1BTU5PuokQYHh7G2NgY7HZ7uouSNHl5efi7v/s7yLKMf/mXf4Hf70/KfPV6Pf7+7/8egiCAMYb79+8nZb6EEEIIIYQQQggh2xUF0IQkiVarRWFhYbqLsUJhYSG0Wm26i5FUTqcTsixDEARUVVXh2bNnSZlvXV0dBCF4WvR6vUmZJyGEEEIIIYQQEu7ll19GZWXluqd/9OgRHj16BJfLlcRSEZI62y6A5jgOOTk50Ol0CAQCWFxc3HJNExCy1fn9fthsNlRWVqKxsTFpAXRTUxMAQBTFpDftQQghhBBCCMluBoMBZWVlsFqtMBgM0Ov1sFqtcaex2WzweDxw...","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}
+&amp#27;[36minfo&amp#27;[39m: &amp#27;[37m<-- GET /wd/hub/session/52281b93-7175-4873-92af-be2c7db73641/screenshot &amp#27;[39m&amp#27;[32m200&amp#27;[39m&amp#27;[90m 7386.465 ms - 3697254&amp#27;[39m &amp#27;[90m{"status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABaAAAAoACAYAAABH9IXPAAAABHNCSVQICAgIfAhkiAAAIABJREFUeJzs3VlwW9d9P/DvufdiJQhwpwhxJ0VSoiRKolZbm504sRXbSeup3Hjq+KHTsSd5SR/y0Je2j31M5/9QNdNOokkyMTWJY0tN4lqOo1qWJVmStVLcxJ0Ed4IkiB333v8DcC8BEgBBEiAA8vdJaIq428Hd8b0H57Cf/OQnMgghhBBCCCGEEEIIIYSQJOPSXQBCCCGEEEIIIYQQQgghWxMF0IQQQgghhBBCCCGEEEJSggJoQgghhBBCCCGEEEIIISlBATQhhBBCCCGEEEIIIYSQlKAAmhBCCCGEEEIIIYQQQkhKUABNCCGEEEIIIYQQQgghJCUogCaEEEIIIYQQQgghhBCSEhRAE0IIIYQQQgghhBBCCEkJCqAJIYQQQgghhBBCCCGEpAQF0IQQQgghhBBCCCGEEEJSggJoQgghhBBCCCGEEEIIISlBATQhhBBCCCGEEEIIIYSQlKAAmhBCCCGEEEIIIYQQQkhKCOkuACFbhSAIqK+vR0VFRbqLEmF0dBTd3d0IBALpLkpSNTc3w+PxoLe3N6nzraurQ25uLh48eJDU+RJCCCGEEEIIIYRsRxRAE5IkOTk5eOGFF1BTU5PuokQYHh7G2NgY7HZ7uouSNHl5efi7v/s7yLKMf/mXf4Hf70/KfPV6Pf7+7/8egiCAMYb79+8nZb6EEEIIIYQQQggh2xUF0IQkiVarRWFhYbqLsUJhYSG0Wm26i5FUTqcTsixDEARUVVXh2bNnSZlvXV0dBCF4WvR6vUmZJyGEEEIIIYQQEu7ll19GZWXluqd/9OgRHj16BJfLlcRSEZI62y6A5jgOOTk50Ol0CAQCWFxc3HJNExCy1fn9fthsNlRWVqKxsTFpAXRTUxMAQBTFpDftQQghhBBCCMluBoMBZWVlsFqtMBgM0Ov1sFqtcaex2WzweDxw...","sessionId":"52281b93-7175-4873-92af-be2c7db73641"}&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[log4j:ERROR setFile(null,false) call failed.
+java.io.FileNotFoundException: F:\seleniumworkspaces\AppiumCare\PageObjectModel\src\test\resources\logs\Application.log (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.activateOptions(FileAppender.java:165)
+	at org.apache.log4j.config.PropertySetter.activate(PropertySetter.java:307)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:172)
+	at org.apache.log4j.config.PropertySetter.setProperties(PropertySetter.java:104)
+	at org.apache.log4j.PropertyConfigurator.parseAppender(PropertyConfigurator.java:842)
+	at org.apache.log4j.PropertyConfigurator.parseCategory(PropertyConfigurator.java:768)
+	at org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(PropertyConfigurator.java:672)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:516)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:580)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:526)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+	at org.apache.log4j.Logger.getLogger(Logger.java:104)
+	at base.TestBase.<clinit>(TestBase.java:21)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:23)
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:410)
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:323)
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:126)
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:191)
+	at org.testng.TestClass.getInstances(TestClass.java:99)
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:85)
+	at org.testng.TestClass.init(TestClass.java:77)
+	at org.testng.TestClass.<init>(TestClass.java:42)
+	at org.testng.TestRunner.initMethods(TestRunner.java:423)
+	at org.testng.TestRunner.init(TestRunner.java:250)
+	at org.testng.TestRunner.init(TestRunner.java:220)
+	at org.testng.TestRunner.<init>(TestRunner.java:161)
+	at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:578)
+	at org.testng.SuiteRunner.init(SuiteRunner.java:185)
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:131)
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1383)
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1363)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1217)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="signUpEmailandSelectACareGiver" classname="testcases.care.CareLoginTest" time="4.107"/>
+</testsuite>

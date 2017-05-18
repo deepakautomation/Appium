@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.94 sec <<< FAILURE! - in TestSuite
+validateButtons(testcases.care.CareLoginTest)  Time elapsed: 10.497 sec  <<< FAILURE!
+java.lang.AssertionError: expected [3] but found [4]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at testcases.care.CareLoginTest.validateButtons(CareLoginTest.java:31)
+
